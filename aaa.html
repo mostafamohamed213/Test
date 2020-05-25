@@ -1,0 +1,56 @@
+<html>
+    <head>
+
+    </head>
+    <body>
+        <h3>Some test tables</h3>
+<div>
+<p>First table</p>
+    <table>
+        <tr>
+            <td>First</td>
+            <td>row</td>
+        </tr>
+        <tr>
+            <td>and</td>
+            <td>second</td>
+            <td>row</td>
+        </tr>
+        <tr>
+            <td>and</td>
+            <td>the</td>
+            <td>third</td>
+            <td>one</td>
+        </tr>
+    </table>
+</div>
+<p>Second table</p>
+<table>
+    <tr>
+        <td>Not</td>
+        <td>so</td>
+    </tr>
+    <tr>
+        <td>many</td>
+        <td>cells</td>
+    </tr>
+</table>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+<script>
+ //   alert($('table')    .children('tbody').children('tr').length);
+    //window.onload(solution());
+  //  function solution() {
+    // write your code in Javascript
+    //
+    // you can access DOM Tree by using DOM Object Model:
+    //    document.getElementsByTagName
+    // or by using jQuery:
+    //    $('some_tag')
+   var c = document.getElementsByTagName("table");
+alert(c[0].childNodes.childNodes.Length);
+ // document.getElementById("demo").innerHTML = c;
+   // }
+</script>
+    </body>
+</html>
